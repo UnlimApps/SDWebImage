@@ -12,7 +12,7 @@
 
 @implementation UIImage (ForceDecode)
 
-+ (UIImage *)decodedImageWithImage:(UIImage *)image {
++ (UIImage *)sd_decodedImageWithImage:(UIImage *)image {
     // while downloading huge amount of images
     // autorelease the bitmap context
     // and all vars to help system to free memory
